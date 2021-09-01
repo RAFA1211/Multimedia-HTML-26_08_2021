@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia HTML 26_08-2021</title>
+    <link rel="stylesheet" href="style.css">
+ <script src="main.js"></script>
+</head>
+<body>
+    <h1>HOLA MUNDO</h1>
+    <a href="https://www.motor.com.co/" rel="external" target="blank">Periodico El Tiempo</a>
+
+
+    <h2>Hipervinculos</h2>
+    <a href="https://ivvuo.com/#/public/inicio" rel="external" target="_black">
+        IVVUO
+    </a>
+    <hr>
+
+    <h2>Imagen cargada desde una url</h2>
+    <img src="https://www.motor.com.co/files/article_main/uploads/2020/08/10/5f318e869825d.jpeg" width="500">
+    <hr>
+
+    <h2>Imagenes cargadas desde el mismo sitio de trabajo en Puerto'localhost:5501'</h2>
+    <img src="/logo_mapp.png" alt="" width="150"> 
+    <hr>
+
+    <!-- <img src="/ejemplo-modelo-4.jpg" alt="" width="500"> -->
+    <h2>Imagenes segun el el tamaño de la pantalla</h2>
+    <picture>
+        <source media="(max-width:1000px)" srcset="/ejemplo-modelo-4.jpg">
+        <source media="(max-width:2000px)" srcset="/ejemplo-modelo.jpg">
+        <source media="(max-width:2500px)" srcset="/logo_mapp.png">
+        <p>Un coche clásico bien restaurado, para quien sabe apreciarlo, es una obra de arte</p>
+        <img id="imgSource" src="/GettyImages-832848722.jpg" alt="" width="600">
+    </picture>
+</body>
+</html>
